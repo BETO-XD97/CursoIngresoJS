@@ -9,15 +9,15 @@ function sumar()
 	//declaro variables
 	var n1;
 	var n2;
-	var suma
+	var suma;
 
 	//ingreso de datos
 	n1 = document.getElementById("txtIdNumeroUno").value;
-	n1 = parseInt("txtIdNumeroUno");
+	n1 = parseInt(n1);
 	n2 = document.getElementById("txtIdNumeroDos").value;
-	n2 = parseInt("txtIdNumeroDos");
-
+	n2 = parseInt(n2);
+    suma = n1 + n2;
 	//ventana emergente
-	alert("")
+	alert("El resultado es: " + suma);
 }
 
