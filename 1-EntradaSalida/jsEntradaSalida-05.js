@@ -14,7 +14,7 @@ function mostrar()
 	edadIngresada = document.getElementById("txtIdEdad").value;
 
 	//ventana emergente
-	alert("Su nombre es " + nombreIngresado + " y su edad es " + edadIngresada);
+	alert("Usted se llama " + nombreIngresado + " y tiene" + edadIngresada + " años");
 
 }
 
