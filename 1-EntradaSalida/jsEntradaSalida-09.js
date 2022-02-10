@@ -31,14 +31,12 @@ function mostrarAumento()
 	//declaro variables
 	var sueldo;
 	var resultado;
-	var porcentaje;
+
 
 	//ingreso de datos
 	sueldo = document.getElementById("txtIdSueldo").value;
 	sueldo = parseInt(sueldo);
 	porcentaje = prompt("Ingrese el porcentaje a aplicar: ");
 	resultado = sueldo + ((sueldo*porcentaje)/100);
-
-	//se muestra en cuadro de resultado
 	txtIdResultado.value = resultado;
 }

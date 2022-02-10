@@ -21,8 +21,5 @@ function sumar()
     suma = n1 + n2;
 	//ventana emergente
 	alert("El resultado es: " + suma);
-
-	//otra forma de mostrar resultado
-	//document.write(resultado);
 }
 
